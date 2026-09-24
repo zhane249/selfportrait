@@ -24,9 +24,10 @@ body::before{
     display: flex;
     gap:50px;
     justify-content: center;
+    padding-left: 80px;
 }
 .features{
-    width: 400px;
+    width: 320px;
 }
 .eye-options{
     display: grid;
