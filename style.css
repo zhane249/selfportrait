@@ -22,7 +22,7 @@ body::before{
 
 .workspace{
     display: flex;
-   width: 1250px;
+   width: 1550px;
     justify-content: space-between;
     margin: 0 auto;
 }
