@@ -23,6 +23,7 @@ body::before{
 .workspace{
     display: flex;
     gap:50px;
+    justify-content: center;
 }
 .features{
     width: 400px;
@@ -56,7 +57,7 @@ body::before{
 } */
 
 .collage{
-    width:500px;
+    width:800px;
 }
 
 #canvas{
@@ -100,7 +101,7 @@ body::before{
 }
 
 h1{
-  
+  text-align: center;
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 600;
