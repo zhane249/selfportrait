@@ -2,11 +2,90 @@
 <html>
   <head>
     <title> </title>
-  <link href="style.css" rel="stylesheet" />
-  
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+<h1>Self Portrait - Custom Makeup Collage</h1>
 
+<div class="workspace">
+    <div class="features">
+        <h2>Eyes</h2>
+        <div class="eye-options">
+        <img class="element" id=
+        "eye1" src="images/eyes/eye1.png" draggable="true" ondragstart="dragstartHandler(event)">
+
+        <img class="element" id="eye2" src="images/eyes/eye2.png"
+        draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye3" src="images/eyes/eye3.jpg"
+             draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+
+    
+            <img class="element" id="eye4" src="images/eyes/eye4.jpg" draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye5" src="images/eyes/eye5.jpg" draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye6" src="images/eyes/eye6.jpg" draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye7" src="images/eyes/eye7.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye8" src="images/eyes/eye8.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye9" src="images/eyes/eye9.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye10" src="images/eyes/eye10.jpg" draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id="eye11"src="images/eyes/eye11.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+            <img class="element" id= "eye12" src="images/eyes/eye12.jpg" draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+    </div>
+
+    <h2>Noses</h2>
+    <div class="nose-options">
+        <img class="element" id="nose1" src="images/noses/nose1.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+    </div>
+
+<h2>Lips</h2>
+<div class="lip-options">
+    <img class="element" id="lip1" src="images/lips/lip1.png"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+    <img class="element" id="lip2" src="images/lips/lip2.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+    <img class="element" id="lip3" src="images/lips/lip3.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+
+
+    <img class="element" id="lip4" src="images/lips/lip4.jpg"  draggable ="true"
+        ondragstart ="dragstartHandler(event)">
+</div>
+
+    
+</div>
+<div class="collage">
+    <h2>Your Look</h2>
+    <button id="deleteButton">Delete</button>
+    <button id="clearButton">Clear All</button>
+    <div id="canvas"
+    ondrop="dropHandler(event)"
+    ondragover="dragoverHandler(event)">
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
   </body>
-
-  </html>
+</html>
